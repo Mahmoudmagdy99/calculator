@@ -1,0 +1,11 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color:#1e1e1e;
+  background-color: rgb(64, 90, 93);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
