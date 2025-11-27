@@ -1,20 +1,20 @@
 # Calculator
 
-A simple and efficient calculator application built to perform basic arithmetic operations. This project demonstrates clean code architecture and is a perfect starting point for those interested in learning about input handling, operation processing, and UI/UX for calculators.
+A simple and efficient calculator application built with React.js and JavaScript. This project showcases the fundamentals of building interactive UIs, managing state, and handling user input in a single-page application.
 
 ## Features
 
 - Addition, subtraction, multiplication, and division
-- User-friendly interface
-- Error handling for invalid operations
-- Responsive design (if applicable)
+- Responsive and intuitive user interface
+- Real-time display updates
+- Error handling for invalid operations (e.g., division by zero)
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Python](https://www.python.org/) 3.x installed (update if this repo uses a different language)
-- Clone this repository
+- [Node.js](https://nodejs.org/) (version 14+ recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [yarn](https://yarnpkg.com/)
 
 ### Installation
 
@@ -22,33 +22,54 @@ A simple and efficient calculator application built to perform basic arithmetic 
    ```bash
    git clone https://github.com/Mahmoudmagdy99/calculator.git
    ```
+
 2. Navigate to the project directory:
    ```bash
    cd calculator
    ```
-3. (Optional) Set up a virtual environment:
+
+3. Install dependencies:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   npm install
    ```
-4. Install dependencies (if any):
+   or
    ```bash
-   pip install -r requirements.txt
+   yarn install
    ```
 
-### Usage
+### Running the App
 
-Run the calculator application:
+Start the development server:
 
 ```bash
-python main.py
+npm start
+```
+or
+```bash
+yarn start
 ```
 
-(or replace with the correct filename/command for your main script)
+This will launch the app in your default browser at [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
+
+```
+calculator/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── Calculator.js
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+├── package.json
+└── README.md
+```
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for improvements.
+Contributions are welcome! If you find a bug or want to suggest a feature, open an issue or submit a pull request.
 
 ## License
 
@@ -57,4 +78,3 @@ This project is licensed under the MIT License.
 ## Author
 
 - [Mahmoud Magdy](https://github.com/Mahmoudmagdy99)
-
